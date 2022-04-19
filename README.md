@@ -90,18 +90,18 @@ CI=true pytest
 
 Follow the deployment instructions to deploy the app to a remote server and schedule the server to send you the weather forecast email every day.
 
-## Running the Web App  
+
+## Running the Web App 
+Running the web app to then view localhost:5000 in the browser:
 
 If flask package is not in the requirements.txt file, add it and then install flask: 
-
 ```sh
 pip install -r requirements.txt
 ```
 
-Command to run the app is now: 
+Flask command to run the app on MacOS is now: 
 ```sh 
 FLASK_APP=web_app flask run
 ``` 
-
 
 ## [License](/LICENSE.md)
