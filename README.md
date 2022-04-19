@@ -52,7 +52,7 @@ Printing today's weather forecast (to test the Weather.gov API):
 ```sh
 python -m app.weather_service
 
-# in production mode:
+# in production mode: 
 APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.weather_service
 ```
 
@@ -89,5 +89,19 @@ CI=true pytest
 ## [Deploying](/DEPLOYING.md)
 
 Follow the deployment instructions to deploy the app to a remote server and schedule the server to send you the weather forecast email every day.
+
+## Running the Web App  
+
+If flask package is not in the requirements.txt file, add it and then install flask: 
+
+```sh
+pip install -r requirements.txt
+```
+
+Command to run the app is now: 
+```sh 
+FLASK_APP=web_app flask run
+``` 
+
 
 ## [License](/LICENSE.md)
