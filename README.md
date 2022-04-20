@@ -92,7 +92,7 @@ Follow the deployment instructions to deploy the app to a remote server and sche
 
 
 ## Running the Web App 
-Running the web app to then view localhost:5000 in the browser:
+Running the web app to then view http://127.0.0.1:500 in the browser:
 
 If flask package is not in the requirements.txt file, add it and then install flask: 
 ```sh
